@@ -1,0 +1,40 @@
+.v-application {
+  background-color: #ebe8e8 !important;
+  color: #616161 !important;
+}
+.sjoke {
+  .v-card {
+    .v-card__text {
+      color: #616161 !important;
+    }
+    margin: 10px 0 !important;
+  }
+}
+
+.home {
+  .card {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    .card-text {
+      padding: 50px 0;
+      .title {
+        font-size: 36px;
+        display: block;
+      }
+      .content {
+        font-size: 15px;
+        color: #ebe8e8;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        display: block;
+      }
+    }
+  }
+  .v-responsive {
+    text-align: center !important;
+  }
+}
